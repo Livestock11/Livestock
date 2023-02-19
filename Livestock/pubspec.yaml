@@ -1,0 +1,94 @@
+name: livestock
+description: A new Flutter project.
+
+publish_to:
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+
+  cloud_firestore: ^3.4.3
+  firebase_storage: ^10.2.18
+  firebase_auth: ^3.6.2
+  firebase_core: ^1.20.0
+  fluttertoast: ^8.0.9
+  provider: ^6.0.3
+  universal_html: ^2.0.8
+  country_code_picker: ^2.0.2
+  pinput: ^1.2.0
+  image_picker: ^0.8.5+3
+  ndialog: ^4.1.1+1
+  html: ^0.15.0
+  acr_cloud_sdk: ^2.0.1
+  avatar_glow: ^2.0.2
+  flutter_hooks: ^0.18.5+1
+  hooks_riverpod: ^1.0.4
+  dio: ^4.0.6
+  animations: ^2.0.4
+  weather_icons: ^3.0.0
+  speech_to_text: ^5.6.1
+  highlight_text: ^1.4.1
+  flutter_speech: ^2.0.0
+  json_annotation: ^4.0.1
+  google_fonts: ^3.0.1
+  syncfusion_flutter_pdfviewer: ^20.2.36-beta
+  geolocator: ^9.0.2
+  http: ^0.13.5
+  flutter_spinkit: ^5.1.0
+
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+
+
+
+
+  - lib/assets/images/Welcome.png
+  - lib/assets/images/otp.png
+  - lib/assets/images/city_background.jpg
+  - lib/assets/images/location_background.jpg
+  - lib/assets/images/wel.jpg
+  - lib/assets/images/elephant.jpg
+  - lib/assets/images/vc.png
+  - lib/assets/images/bank.png
+  - lib/assets/images/cow.png
+  - lib/assets/images/dieses.jpeg
+  - lib/assets/images/moon.png
+  - lib/assets/images/Bird-Flu-Urdu.pdf
+  - lib/assets/images/Exotic_Grasses.pdf
+  - lib/assets/images/Instructions_for_raising_calf.pdf
+  - lib/assets/images/MottGrass.pdf
+  - lib/assets/images/Instructions_for_raising_calf.pdf
+  - lib/assets/images/MottGrass.pdf
+  - lib/assets/images/modern methods of raising buffalo.pdf
+  - lib/assets/images/Beef Production.pdf
+  - lib/assets/images/Broiler Farming (Feasibilty) 2020_0.pdf
+  - lib/assets/images/Cow Litrature 2021.pdf
+  - lib/assets/images/FAQs Urdu.pdf
+  - lib/assets/images/Goat production.pdf
+  - lib/assets/images/Rural Poultary.pdf
+
+  fonts:
+    - family: Spartan MB
+      fonts:
+        - asset: fonts/SpartanMB-Black.otf
+          weight: 900
+
